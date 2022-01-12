@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:navigationIcon="@drawable/ic_arrow"
-        android:title="@string/login_screen_title"
+        android:title="@string/tv_login_screen_title"
         app:layout_constraintTop_toTopOf="parent" />
     <ImageView
 
@@ -65,7 +65,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/password"
-        android:text="@string/continue_button_text"/>
+        android:text="@string/button_login_screen_login"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

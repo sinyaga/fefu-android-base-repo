@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:navigationIcon="@drawable/ic_arrow"
-        android:title="@string/registration_title"
+        android:title="@string/tv_registration_screen_title"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
@@ -130,14 +130,14 @@
                 android:layout_marginTop="16dp"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
-                android:text="@string/registration_button_text"
+                android:text="@string/button_welcome_screen_registration"
                 app:layout_constraintTop_toBottomOf="@id/sexswitch" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
-                android:text="@string/important_info"
+                android:text="@string/tv_registration_screen_important_info"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="12sp"

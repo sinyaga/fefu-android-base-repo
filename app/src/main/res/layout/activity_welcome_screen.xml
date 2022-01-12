@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:fontFamily="sans-serif"
-        android:text="@string/slogan"
+        android:text="@string/tv_welcome_screen_slogan"
         android:textAlignment="center"
         android:textColor="#101010"
         android:textSize="24sp"
@@ -40,7 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="@string/sub_slogan"
+        android:text="@string/tv_welcome_screen_sub_slogan"
         android:textAlignment="center"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -54,7 +54,7 @@
         android:insetBottom="0dp"
         android:insetTop="0dp"
 
-        android:text="@string/registration_button_text"
+        android:text="@string/button_welcome_screen_registration"
         android:textAllCaps="false"
         app:layout_constraintTop_toBottomOf="@id/textView3"
         app:layout_constraintBottom_toTopOf="@id/loginButton"
@@ -71,7 +71,7 @@
         android:layout_height="wrap_content"
 
         android:layout_marginBottom="48dp"
-        android:text="@string/login_button_text"
+        android:text="@string/button_welcome_screen_login"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
