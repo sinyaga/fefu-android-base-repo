@@ -1,13 +1,13 @@
-package ru.fefu.activitytracker.views.welcome
+package ru.fefu.activitytracker.screens.welcome
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import ru.fefu.activitytracker.databinding.ActivityWelcomeScreenBinding
-import ru.fefu.activitytracker.views.login.LoginActivity
-import ru.fefu.activitytracker.views.registration.RegistrationActivity
+import ru.fefu.activitytracker.screens.login.LoginScreenActivity
+import ru.fefu.activitytracker.screens.registration.RegistrationScreenActivity
 
-class WelcomeActivity : AppCompatActivity() {
+class WelcomeScreenActivity : AppCompatActivity() {
     private lateinit var binding: ActivityWelcomeScreenBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,14 +21,14 @@ class WelcomeActivity : AppCompatActivity() {
 
     private fun bindLoginButton() {
         binding.loginButton.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this, LoginScreenActivity::class.java)
             startActivity(intent)
         }
     }
 
     private fun bindRegistrationButton() {
         binding.registrationButton.setOnClickListener {
-            val intent = Intent(this, RegistrationActivity::class.java)
+            val intent = Intent(this, RegistrationScreenActivity::class.java)
             startActivity(intent)
         }
     }

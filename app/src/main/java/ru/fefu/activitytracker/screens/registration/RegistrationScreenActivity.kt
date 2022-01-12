@@ -1,5 +1,6 @@
-package ru.fefu.activitytracker.views.registration
+package ru.fefu.activitytracker.screens.registration
 
+import android.content.Intent
 import android.os.Bundle
 import android.text.method.LinkMovementMethod
 import android.widget.ArrayAdapter
@@ -7,8 +8,9 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.textfield.MaterialAutoCompleteTextView
 import ru.fefu.activitytracker.R
 import ru.fefu.activitytracker.databinding.ActivityRegistrationScreenBinding
+import ru.fefu.activitytracker.screens.login.LoginScreenActivity
 
-class RegistrationActivity: AppCompatActivity() {
+class RegistrationScreenActivity : AppCompatActivity() {
     private lateinit var binding: ActivityRegistrationScreenBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,6 +21,12 @@ class RegistrationActivity: AppCompatActivity() {
         binding.toolbar.setOnClickListener {
             finish()
         }
+        binding.registrationAcceptButton.setOnClickListener {
+            val intent = Intent(this, LoginScreenActivity::class.java)
+            startActivity(intent)
+        }
+
     }
+
 
 }

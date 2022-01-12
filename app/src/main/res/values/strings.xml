@@ -5,6 +5,8 @@
     <string name="registration_button_text">Зарегистрироваться</string>
     <string name="login_button_text">Уже есть аккаунт?</string>
     <string name="login_screen_title">Вход</string>
+    <string name="login_screen_riders_image_description">велосипедисты</string>
+
     <string name="login_hint">Логин</string>
     <string name="password_hint">Пароль</string>
     <string name="continue_button_text">Войти</string>
@@ -20,19 +22,18 @@
         и обработки персональных
         данных, а также принимаете
         <a href="https://www.placecage.com/256/256">пользовательское соглашение</a></string>
-    <string name="mono_logo_description">одноцветный логотип</string>
-    <string name="mono_title_description">одноцветное название</string>
-    <string name="riders_image_description">велосипедисты</string>
-    <string name="bg_description">волны</string>
-    <string name="logo_description">логотип</string>
+
+    <string name="main_screen_nav_bar_activity_item">Активность</string>
+    <string name="main_screen_nav_bar_profile_item">Профиль</string>
+    <string name="main_screen_users_activities_text">Активности пользователей</string>
+
+    <string name="users_activities_tab_title">Пользователей</string>
+    <string name="my_activities_tab_title">Мои</string>
+    <string name="my_activities_screen_text">Мои активности</string>
+
+    <string name="profile_screen_text">Профиль</string>
+
     <string name="title_description">название</string>
     <string name="back_button_description">назад</string>
-    <string name="activity">Активность</string>
-    <string name="profile">Профиль</string>
-    <string name="tv_activity_card_finish_time_header">Финиш</string>
-    <string name="tv_activity_card_start_time_header">Старт</string>
-    <string name="tv_my_activities_sub_header">Нажимай на кнопку ниже и начинаем\nтрекать активность</string>
-    <string name="tv_my_activities_header">Время потренить</string>
-    <string name="tv_vertical_line_separator">|</string>
-    <string name="comment_hint">Комментарий</string>
+    <string name="logo_description">логотип</string>
 </resources>
